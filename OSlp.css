@@ -1,0 +1,147 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+  background-image: url(imagesweb/water/beach.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+img {
+  width: 150px;
+  height: 80px;
+  border-radius: 50%;
+  margin-left: 30px;
+}
+.nav {
+  width: 100%;
+  height: 80px;
+  background-color: beige;
+  border-radius: 100px;
+}
+.nav button {
+  float: right;
+  padding: 15px;
+  margin-right: 50px;
+  margin-top: 17px;
+  border-radius: 50px;
+  border: none;
+  border-style: outset;
+  background-color: rgba(0, 213, 255, 0.721);
+}
+.nav button:hover {
+  cursor: pointer;
+  background-color: aliceblue;
+}
+.image {
+  width: 100%;
+  height: 500px;
+}
+p {
+  text-align: center;
+  color: white;
+  padding: 250px;
+  font-size: 80px;
+}
+a {
+  color: rgba(0, 213, 255, 0.721);
+}
+.about {
+  font-size: 30px;
+  width: 100%;
+  height: 100px;
+  background-color: beige;
+  display: inline-block;
+  font-weight: bold;
+  color: rgba(0, 213, 255, 0.721);
+  text-align: center;
+  padding: 30px;
+  border-radius: 20px;
+}
+div#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#container img {
+  width: 350px;
+
+  height: 350px;
+}
+#container p {
+  font-size: 20px;
+}
+.service {
+  font-size: 30px;
+  width: 100%;
+  height: 100px;
+  background-color: beige;
+  display: inline-block;
+  font-weight: bold;
+  color: rgba(0, 213, 255, 0.721);
+  text-align: center;
+  padding: 30px;
+  border-radius: 20px;
+}
+.about_info2 {
+  font-size: 25px;
+  float: right;
+}
+
+.copyright {
+  font-size: 10px;
+  width: 100%;
+  height: 10px;
+  background-color:beige;
+  display: inline-block;
+  font-weight: bold;
+  color: rgba(0, 213, 255, 0.721);
+  text-align: center;
+  padding: 30px;
+  border-radius: 20px;
+}
+div#container1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#container1 img {
+  width: 300px;
+  margin-left: 200px;
+  height: 300px;
+}
+#container1 p {
+  font-size: 20px;
+}
+.waste {
+  font-size: 30px;
+  width: 100%;
+  height: 100px;
+  background-color: beige;
+  display: inline-block;
+  font-weight: bold;
+  color: rgba(0, 213, 255, 0.721);
+  text-align: center;
+  padding: 30px;
+  border-radius: 20px;
+}
+div#container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#container2 img {
+  width: 300px;
+  margin-left: 200px;
+  height: 300px;
+}
+#container2 p {
+  font-size: 20px;
+}
